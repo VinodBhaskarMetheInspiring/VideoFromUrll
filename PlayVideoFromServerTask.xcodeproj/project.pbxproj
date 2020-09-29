@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0FC539F82521F8320050D11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC539F72521F8320050D11C /* AppDelegate.swift */; };
-		0FC539FA2521F8320050D11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC539F92521F8320050D11C /* SceneDelegate.swift */; };
 		0FC539FC2521F8320050D11C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC539FB2521F8320050D11C /* ViewController.swift */; };
 		0FC539FF2521F8320050D11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC539FD2521F8320050D11C /* Main.storyboard */; };
 		0FC53A012521F8390050D11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC53A002521F8390050D11C /* Assets.xcassets */; };
 		0FC53A042521F8390050D11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC53A022521F8390050D11C /* LaunchScreen.storyboard */; };
+		0FCC889925221EC900581CFE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC889825221EC900581CFE /* Constants.swift */; };
+		0FCC889B252238E600581CFE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC889A252238E600581CFE /* VideoTableViewCell.swift */; };
+		D1CD81B412BDDCC977F618D7 /* Pods_PlayVideoFromServerTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C763B83E7C41F08F98AFA4D4 /* Pods_PlayVideoFromServerTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0FC539F42521F8320050D11C /* PlayVideoFromServerTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayVideoFromServerTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC539F42521F8320050D11C /* SnapTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC539F72521F8320050D11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FC539F92521F8320050D11C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0FC539FB2521F8320050D11C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FC539FE2521F8320050D11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FC53A002521F8390050D11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC53A032521F8390050D11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FC53A052521F8390050D11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCC889825221EC900581CFE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0FCC889A252238E600581CFE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		3AAFD5C52EEBD482D5552F54 /* Pods-PlayVideoFromServerTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayVideoFromServerTask.debug.xcconfig"; path = "Target Support Files/Pods-PlayVideoFromServerTask/Pods-PlayVideoFromServerTask.debug.xcconfig"; sourceTree = "<group>"; };
+		80C4ECE7BEFF850C9BD198C3 /* Pods-PlayVideoFromServerTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayVideoFromServerTask.release.xcconfig"; path = "Target Support Files/Pods-PlayVideoFromServerTask/Pods-PlayVideoFromServerTask.release.xcconfig"; sourceTree = "<group>"; };
+		C763B83E7C41F08F98AFA4D4 /* Pods_PlayVideoFromServerTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayVideoFromServerTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CD81B412BDDCC977F618D7 /* Pods_PlayVideoFromServerTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +49,15 @@
 			children = (
 				0FC539F62521F8320050D11C /* PlayVideoFromServerTask */,
 				0FC539F52521F8320050D11C /* Products */,
+				27578ED2114BFF272DE84C4D /* Pods */,
+				1F6BC3F44221FBEE49A26318 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0FC539F52521F8320050D11C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FC539F42521F8320050D11C /* PlayVideoFromServerTask.app */,
+				0FC539F42521F8320050D11C /* SnapTok.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				0FC539F72521F8320050D11C /* AppDelegate.swift */,
-				0FC539F92521F8320050D11C /* SceneDelegate.swift */,
 				0FC539FB2521F8320050D11C /* ViewController.swift */,
+				0FCC889A252238E600581CFE /* VideoTableViewCell.swift */,
 				0FC539FD2521F8320050D11C /* Main.storyboard */,
 				0FC53A002521F8390050D11C /* Assets.xcassets */,
 				0FC53A022521F8390050D11C /* LaunchScreen.storyboard */,
 				0FC53A052521F8390050D11C /* Info.plist */,
+				0FCC889825221EC900581CFE /* Constants.swift */,
 			);
 			path = PlayVideoFromServerTask;
+			sourceTree = "<group>";
+		};
+		1F6BC3F44221FBEE49A26318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C763B83E7C41F08F98AFA4D4 /* Pods_PlayVideoFromServerTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27578ED2114BFF272DE84C4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AAFD5C52EEBD482D5552F54 /* Pods-PlayVideoFromServerTask.debug.xcconfig */,
+				80C4ECE7BEFF850C9BD198C3 /* Pods-PlayVideoFromServerTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FC53A082521F8390050D11C /* Build configuration list for PBXNativeTarget "PlayVideoFromServerTask" */;
 			buildPhases = (
+				5F162423CA7C8A483D94C3BC /* [CP] Check Pods Manifest.lock */,
 				0FC539F02521F8320050D11C /* Sources */,
 				0FC539F12521F8320050D11C /* Frameworks */,
 				0FC539F22521F8320050D11C /* Resources */,
+				486D8AD3AEE69816610EBDA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +113,7 @@
 			);
 			name = PlayVideoFromServerTask;
 			productName = PlayVideoFromServerTask;
-			productReference = 0FC539F42521F8320050D11C /* PlayVideoFromServerTask.app */;
+			productReference = 0FC539F42521F8320050D11C /* SnapTok.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		486D8AD3AEE69816610EBDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayVideoFromServerTask/Pods-PlayVideoFromServerTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayVideoFromServerTask/Pods-PlayVideoFromServerTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayVideoFromServerTask/Pods-PlayVideoFromServerTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F162423CA7C8A483D94C3BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayVideoFromServerTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FC539F02521F8320050D11C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +211,8 @@
 			files = (
 				0FC539FC2521F8320050D11C /* ViewController.swift in Sources */,
 				0FC539F82521F8320050D11C /* AppDelegate.swift in Sources */,
-				0FC539FA2521F8320050D11C /* SceneDelegate.swift in Sources */,
+				0FCC889925221EC900581CFE /* Constants.swift in Sources */,
+				0FCC889B252238E600581CFE /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +354,21 @@
 		};
 		0FC53A092521F8390050D11C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAFD5C52EEBD482D5552F54 /* Pods-PlayVideoFromServerTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24HLWTXM9K;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PlayVideoFromServerTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.metheinspiring.PlayVideoFromServerTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnapTok;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +376,20 @@
 		};
 		0FC53A0A2521F8390050D11C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C4ECE7BEFF850C9BD198C3 /* Pods-PlayVideoFromServerTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24HLWTXM9K;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PlayVideoFromServerTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.metheinspiring.PlayVideoFromServerTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnapTok;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
